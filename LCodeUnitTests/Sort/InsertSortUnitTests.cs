@@ -32,8 +32,8 @@ namespace LCodeUnitTests
         public void InsertSortWithArray_OneItem()
         {
             InsertSort sort = new InsertSort();
-            int[] array = new int[] {0};
-            int[] expected = new int[] {0};
+            int[] array = new int[] { 0 };
+            int[] expected = new int[] { 0 };
             array = sort.InsertSortWithArray(array);
 
             Assert.Equal(expected, array);
