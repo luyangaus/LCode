@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LCode
 {
-    public class ListNode
+    public partial class ListNode
     {
         public int val;
         public ListNode next;
@@ -17,7 +17,7 @@ namespace LCode
         }
     }
 
-    public class AddTwoNumbersSolution
+    public partial class AddTwoNumbersSolution
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
