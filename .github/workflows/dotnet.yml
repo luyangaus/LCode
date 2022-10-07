@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: work to fix git permission issue
-      run: git config --global --add safe.directory C:/actions-runner/_work/LCode/LCode
+      run: git config --global --add safe.directory /_work/LCode/LCode
     - uses: actions/checkout@v3
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
