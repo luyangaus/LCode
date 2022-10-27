@@ -25,7 +25,6 @@ public class MaxNodeAfter
         int maxInt = Int32.MinValue;
         while (reversedList != null)
         {
-           
             if (resultList.Count == 0)
             {
                 resultList.Add(0);
